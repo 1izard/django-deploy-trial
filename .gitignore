@@ -201,3 +201,5 @@ dmypy.json
 .history
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,django
+
+local_settings.py
