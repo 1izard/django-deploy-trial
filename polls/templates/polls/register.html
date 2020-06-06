@@ -1,0 +1,21 @@
+<h1>Register a question</h1>
+
+<form action="{% url 'polls:register' %}" method="post">
+  {% csrf_token %}
+  <label for="input_question">Question Text</label>
+  <input type="text" id="input_question" name="question_text"><br><br>
+
+  <label for="input_choice0">Choice0</label>
+  <input type="text" id="input_choice0" name="choice0_text"><br>
+
+  <label for="input_choice1">Choice1</label>
+  <input type="text" id="input_choice1" name="choice1_text"><br>
+
+  <label for="input_choice2">Choice2</label>
+  <input type="text" id="input_choice2" name="choice2_text"><br><br>
+
+  <input type="submit" value="Register">
+</form>
+
+<hr>
+<a href="{% url 'polls:index' %}">HOME</a>
