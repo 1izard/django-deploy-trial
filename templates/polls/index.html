@@ -1,5 +1,6 @@
-{% extends 'base.html' %}
+{% extends 'polls/base.html' %}
 
+{% load static %}
 {% block content %}
 {% if latest_question_list %}
 <ul>
@@ -15,7 +16,8 @@
 
 <h1 id="hello">Hello!</h1>
 <hr>
-<button id="reg_btn" class="btn btn-primary" type="button"><a href="{% url 'polls:register' %}">Register</a></button>
+<a href="{% url 'polls:register' %}">
+  <button id="reg_btn" class="btn btn-primary" type="button">Register</button></a>
 {% endblock %}
 
 {% block js %}
