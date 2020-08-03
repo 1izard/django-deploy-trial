@@ -9,10 +9,8 @@ autopep8 = "*"
 
 [packages]
 django = "*"
-dj-database-url = "*"
 gunicorn = "*"
 psycopg2 = "~=2.7.6.1"
-django-heroku = "*"
 
 [requires]
 python_version = "3.7"
