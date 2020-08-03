@@ -25,7 +25,7 @@ SECRET_KEY = 'ay0ua3%43a*crn&d5%pud5m=y+dlva&sg_)r=-b^8qn5v=$tgi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
